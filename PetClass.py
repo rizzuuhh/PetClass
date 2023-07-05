@@ -42,3 +42,6 @@ pet.set_animal_type(animal_type)
 pet.set_age(age)
 
 # Retrieve and display the details of the pet using accessor methods
+print("Pet's name:", pet.get_name())
+print("Pet's animal type:", pet.get_animal_type())
+print("Pet's age:", pet.get_age())
