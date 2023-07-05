@@ -10,7 +10,9 @@ class Pet:
      self.__name = name
 
      # Set the animal type of the pet
-
+    def set_animal_type(self, animal_type):
+     self.__animal_type = animal_type
+    
      # Set the age of the page
 # Return the pet's name
 # Return the pet's animal type
