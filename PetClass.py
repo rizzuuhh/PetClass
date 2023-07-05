@@ -1,6 +1,10 @@
 class Pet:
     def __init__(self):
-# Initialize data attributes
+     # Initialize data attributes
+     self.__name = ""
+     self.__animal_type = ""
+     self.__age = 0
+
 # Set the name of pet
 # Set the animal type of the pet
 # Set the age of the page
