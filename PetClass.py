@@ -32,5 +32,9 @@ class Pet:
 # Create a Pet object
 pet = Pet()
 # Prompt the user for the details of the pet
+name = input("Enter the pet's name: ")
+animal_type = input("Enter the pet's animal type: ")
+age = input("Enter the pet's age: ")
+ 
 # Store the entered details as object attributes
 # Retrieve and display the details of the pet using accessor methods
