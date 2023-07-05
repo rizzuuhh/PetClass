@@ -25,7 +25,10 @@ class Pet:
     def get_animal_type(self):
      return self.__animal_type
 
-# Return the pet's age
+     # Return the pet's age
+    def get_age(self):
+     return self.__age
+
 # Create a Pet object
 # Prompt the user for the details of the pet
 # Store the entered details as object attributes
