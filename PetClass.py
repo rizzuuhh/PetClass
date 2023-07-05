@@ -30,6 +30,7 @@ class Pet:
      return self.__age
 
 # Create a Pet object
+pet = Pet()
 # Prompt the user for the details of the pet
 # Store the entered details as object attributes
 # Retrieve and display the details of the pet using accessor methods
