@@ -1,3 +1,5 @@
+class Pet:
+    def __init__(self):
 # Initialize data attributes
 # Set the name of pet
 # Set the animal type of the pet
