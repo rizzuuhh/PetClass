@@ -32,7 +32,7 @@ class Pet:
 # Create a Pet object
 pet = Pet()
 # Prompt the user for the details of the pet
-name = input("Enter the pet's name: ")
+name = input("\033[0;33mEnter the pet's name: ")
 animal_type = input("Enter the pet's animal type: ")
 age = input("Enter the pet's age: ")
  
@@ -42,6 +42,6 @@ pet.set_animal_type(animal_type)
 pet.set_age(age)
 
 # Retrieve and display the details of the pet using accessor methods
-print("Pet's name:", pet.get_name())
+print("\033[1;36mPet's name:", pet.get_name())
 print("Pet's animal type:", pet.get_animal_type())
 print("Pet's age:", pet.get_age())
